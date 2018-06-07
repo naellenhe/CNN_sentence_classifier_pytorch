@@ -1,7 +1,8 @@
-Reference to Convolutional Neural Networks for Sentence Classification[Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1408.5882v2.pdf) and implemented with PyTorch. 
+Reference to [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1408.5882v2.pdf) and implemented with PyTorch. 
 
 
-6/6/2018 so far (under improvement)
+6/6/2018 so far (under improvement): 
+
 Test Accuracy of the model on the test dataset: 77.79816513761467 %
 
 ### Model:

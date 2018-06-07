@@ -1,5 +1,8 @@
 Reference to [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1408.5882v2.pdf) and implemented with PyTorch. 
 
+input data:
+sentence to vector (64, 300)
+
 
 6/6/2018 so far (under improvement): 
 

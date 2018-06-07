@@ -59,3 +59,5 @@ Conv3 (b_conv, (100,))
 |-nonstatic -rand|9572/1100|20|(conv- relu - pool), (linear)x2 |torch.optim.Adam|-|0.01| 77.15%|
 |-nonstatic -rand|9572/1100|20|(conv- relu - pool), (linear-relu)x2 |torch.optim.Adam|Kaiming He|0.01| 77.52%|
 |-nonstatic -rand|9572/1100|20|(conv- relu - pool), (linear-relu)x2 |torch.optim.Adam|Kaiming He|0.001| 80.27%|
+|-nonstatic -word2vec|9572/1100|20|(conv- relu - pool), (linear-relu)x2 |torch.optim.Adam|Kaiming He|0.001| 81.83%|
+

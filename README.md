@@ -5,11 +5,9 @@ sentence to vector (64, 300)
 
 
 6/6/2018 so far (under improvement): 
-
-Test Accuracy of the model on the test dataset: 77.79816513761467 %
+Test Accuracy of the model on the test dataset: 80.27 %
 
 ### Model:
-
 
 ```
 Network
@@ -52,3 +50,12 @@ Conv3 (b_conv, (100,))
 
 - Fully Connected Layer(Logits (100, 1) -> Logits (2, 1) -> Softmax) -> Labels
 ```
+
+### Test memo:
+
+#### Model 1
+|mode/vec|dataset size(train/test)|#epoch|      model  |  optimizer | parameters |lr| accuracy  |
+|-----|-----------------------|-------|--------------|------------|------------|--|------------|
+|-nonstatic -rand|9572/1100|20|(conv- relu - pool), (linear)x2 |torch.optim.Adam|-|0.01| 77.15%|
+|-nonstatic -rand|9572/1100|20|(conv- relu - pool), (linear-relu)x2 |torch.optim.Adam|Kaiming He|0.01| 77.52%|
+|-nonstatic -rand|9572/1100|20|(conv- relu - pool), (linear-relu)x2 |torch.optim.Adam|Kaiming He|0.001| 80.27%|

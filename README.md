@@ -5,7 +5,7 @@ sentence to vector (64, 300)
 
 
 6/6/2018 so far (under improvement): 
-Test Accuracy of the model on the test dataset: 80.27 %
+Test Accuracy of the model on the test dataset: 81.83 %
 
 ### Model:
 

@@ -1,11 +1,17 @@
 Reference to [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1408.5882v2.pdf) and implemented with PyTorch. 
 
-input data:
+
+6/6/2018: 
+Test Accuracy of the model on the test dataset: 81.83 %
+
+### Dataset: Movie review
+http://www.cs.cornell.edu/people/pabo/movie-review-data/
+sentence polarity dataset v1.0 (includes sentence polarity dataset README v1.0: 5331 positive and 5331 negative processed sentences / snippets. Introduced in Pang/Lee ACL 2005. Released July 2005.
+
+
+### Input data size:
 sentence to vector (64, 300)
 
-
-6/6/2018 so far (under improvement): 
-Test Accuracy of the model on the test dataset: 81.83 %
 
 ### Model:
 

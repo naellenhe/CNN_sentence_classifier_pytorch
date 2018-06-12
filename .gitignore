@@ -5,3 +5,4 @@ secrets.sh
 *.txt
 process_data.*
 get_data_from_twitter.*
+ja/

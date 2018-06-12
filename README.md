@@ -67,3 +67,20 @@ Conv3 (b_conv, (100,))
 |-nonstatic -rand|9572/1100|20|(conv- relu - pool), (linear-relu)x2 |torch.optim.Adam|Kaiming He|0.001| 80.27%|
 |-nonstatic -word2vec|9572/1100|20|(conv- relu - pool), (linear-relu)x2 |torch.optim.Adam|Kaiming He|0.001| 81.83%|
 
+
+### Get data from twitter
+- Get Twitter API Key https://apps.twitter.com
+- Make secrets.sh file
+```
+export TWITTER_CONSUMER_KEY="dsfsdfsdfsdfds"
+export TWITTER_CONSUMER_SECRET="nbY44SoJEwtDjWOpuaS8vVG" 
+export TWITTER_ACCESS_TOKEN_KEY="31524pbT1RrCWWRlvtT" 
+export TWITTER_ACCESS_TOKEN_SECRET="Ta6DYtsCdEJXuVksyvWVF"
+
+```
+- Add secrets.sh to .gitignore
+- To load your secret info into your environment
+```
+$ source secrets.sh
+```
+
